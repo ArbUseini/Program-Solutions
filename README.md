@@ -26,18 +26,20 @@ Method 1:
     -Open said folder
     -Right click , then go to the option where you see 'Git Bash Here' (without '')
     -Then after opening paste this:
-        git clone https://github.com/ArbUseini/Program-Solutions
-        (this will create a folder Program-Solutions , then)
-        cd Program-Solutions/
-        
-        ### after this you can go and then open and run files as always!
+```
+git clone https://github.com/ArbUseini/Program-Solutions
+(this will create a folder Program-Solutions , then)
+cd Program-Solutions/
+```
 
-Method 2 `git bash`:
+
+Method 2 'git bash':
+```
     - (go to the folder you want to clone the project)
     - cd folder/
     - git clone https://github.com/ArbUseini/Program-Solutions
     - open the folder then you can try the projects for yourself        
-
+```
 If there is a problem with the solutions or you have a more efficient method of solving one of the exercises please get in touch with me at arbuseini@gmail.com
 
 Special Thanks to the contributors:
