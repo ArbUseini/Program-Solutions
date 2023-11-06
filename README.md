@@ -21,7 +21,7 @@ sudo apt install git
 If you face any issues feel free to reach out to us!
 
 2. After installing git you can clone our project:
-Method 1:
+## Method 1:
     1. Go to the file you want to create the project (Can be desktop, downloads, this is up to you!)
     2. Open said folder
     3. Right click , then go to the option where you see 'Git Bash Here' (without '')
@@ -35,13 +35,13 @@ cd Program-Solutions/
 ```
 
 
-Method 2 'git bash':
-    - (go to the folder you want to clone the project)
-    - cd folder/
+## Method 2 'git bash':
+    1. (go to the folder you want to clone the project)
+    2. cd folder/
     ```
     - git clone https://github.com/ArbUseini/Program-Solutions
     ```
-    - open the folder then you can try the projects for yourself        
+    4. open the folder then you can try the projects for yourself        
 
 If there is a problem with the solutions or you have a more efficient method of solving one of the exercises please get in touch with me at arbuseini@gmail.com
 
