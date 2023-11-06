@@ -36,12 +36,13 @@ cd Program-Solutions/
 
 
 Method 2 'git bash':
-```
     - (go to the folder you want to clone the project)
     - cd folder/
+    ```
     - git clone https://github.com/ArbUseini/Program-Solutions
+    ```
     - open the folder then you can try the projects for yourself        
-```
+
 If there is a problem with the solutions or you have a more efficient method of solving one of the exercises please get in touch with me at arbuseini@gmail.com
 
 Special Thanks to the contributors:
