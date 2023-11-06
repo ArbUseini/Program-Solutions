@@ -1,10 +1,10 @@
-If you want to access these codes and try them yourself:
+### If you want to access these codes and try them yourself:
 
-1. Install git bash: 
+# Install git bash: 
 Official Website: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-Videos
-- (Windows):
+## Videos
+(Windows):
 https://www.youtube.com/watch?v=BMW7LiF_Oc4
 
 (Mac):
@@ -14,9 +14,10 @@ https://www.youtube.com/watch?v=O3vtpZgI0fQ
 https://www.youtube.com/watch?v=bc3_FL9zWWs
 
 or paste these commands:
+```
 sudo apt-update
 sudo apt install git
-
+```
 If you face any issues feel free to reach out to us!
 
 2. After installing git you can clone our project:
