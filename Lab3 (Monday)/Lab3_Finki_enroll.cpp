@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+This is correct
+Thanks Zaid ;)
+
+*/
+
+
 int main() {
     int red;
     const int service = 5;
@@ -9,20 +17,19 @@ int main() {
     const int end_of_day = 360;
     cin >> red;
     int passed_time = 0;
-    int counter = passed_time;
-    while(service * red != counter){
-        passed_time += 5;
-        counter += 5;
+    for (int i = 0; i < red; i++){
         if(passed_time == first_break){
             passed_time += 30;
         }
         else if(passed_time == second_break){
             passed_time += 30;
         }
-        
+        else{
+            passed_time += 5;
+        }
     }
     if(passed_time >= 60) {
-        if (passed_time >= end_of_day) {
+        if (passed_time > end_of_day) {
             cout << "Come Back Tomorrow ";
         } else {
             int hours = passed_time / 60;

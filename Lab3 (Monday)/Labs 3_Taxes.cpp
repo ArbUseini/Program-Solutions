@@ -1,11 +1,17 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+Haven't checked this one yet!
+
+*/
+
 int main() {
     int percent_0 , percent_1 , point_1, percent_2, point_2 ;
     int salary, math, total;
     total = 0;
-    cin >> percent_0  >> point_1 >> percent_1 >> point_2 >> percent_2 >>  salary;
+    cin >> percent_0  >> point_1 >> percent_1 >> point_2 >> percent_2 >> salary;
     while(salary) {
         if (salary > point_1) {
             salary -= point_1;
