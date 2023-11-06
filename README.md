@@ -29,7 +29,7 @@ Method 1:
         (this will create a folder Program-Solutions , then)
         cd Program-Solutions/
         
-        after this you can go and then open and run files as always!
+        -after this you can go and then open and run files as always!
 
 Method 2 `git bash`:
     - (go to the folder you want to clone the project)
