@@ -22,13 +22,15 @@ If you face any issues feel free to reach out to us!
 
 2. After installing git you can clone our project:
 Method 1:
-    -Go to the file you want to create the project (Can be desktop, downloads, this is up to you!)
-    -Open said folder
-    -Right click , then go to the option where you see 'Git Bash Here' (without '')
-    -Then after opening paste this:
+    1. Go to the file you want to create the project (Can be desktop, downloads, this is up to you!)
+    2. Open said folder
+    3. Right click , then go to the option where you see 'Git Bash Here' (without '')
+    4. Then after opening paste this:
 ```
 git clone https://github.com/ArbUseini/Program-Solutions
+```
 (this will create a folder Program-Solutions , then)
+```
 cd Program-Solutions/
 ```
 
