@@ -33,7 +33,7 @@ int main()
             else
             {
                 
-                num = (numalt*10)+num;
+                num = (numalt*10) + num;
                 numalt = 0;
 
             }
