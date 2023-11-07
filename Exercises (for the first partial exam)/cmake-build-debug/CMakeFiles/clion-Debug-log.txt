@@ -1,0 +1,86 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\Dell\OneDrive\Documents\GitHub\Program-Solutions\Exercises (for the first partial exam)" -B "C:\Users\Dell\OneDrive\Documents\GitHub\Program-Solutions\Exercises (for the first partial exam)\cmake-build-debug"
+CMake Error: Could not find cmake module file: CMakeDetermine(Compiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMake(Compiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermineforCompiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMakeforCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminetheCompiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMaketheCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminefirstCompiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMakefirstCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminepartialCompiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMakepartialCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermineexamCompiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMakeexamCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermine)Compiler.cmake
+CMake Error: Could not find cmake module file: C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/3.26.4/CMake)Compiler.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_(_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_(_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake(Information.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_for_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_for_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeforInformation.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_the_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_the_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMaketheInformation.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_first_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_first_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakefirstInformation.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_partial_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_partial_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakepartialInformation.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_exam_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_exam_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeexamInformation.cmake
+CMake Error at CMakeLists.txt:3 (project):
+  No CMAKE_)_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_)_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake)Information.cmake
+CMake Error: CMAKE_(_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_for_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_the_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_first_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_partial_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_exam_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_)_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
