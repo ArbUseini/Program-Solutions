@@ -1,3 +1,17 @@
+/* *
+* Read from SI one integer n.
+* From the integers smaller than n,
+* find the one with maximum sum of divisors.
+* Do not count the number itself in the sum of divisors.
+* 
+* For example:
+* 
+* Input:    /    Result:
+* 50        /    48
+* */    
+
+//THIS IS IN C!
+
 #include <stdio.h>
 
 int main(){ //smoking kills
