@@ -1,3 +1,19 @@
+/*
+ * From SI read one number that represents the today's date in format DDMMYYYY (DD-day, MM-month, YYYY-year).
+ * Then read one integer N, after you read N dates of birth in the given format. For each of the N read dates
+ * your program should print "YES" if on today's date (read in the beginning) the person with that date have
+ * more or equal to 18 years, otherwise should print "NO".
+ *
+ * Input            Result
+ * 15032015         YES
+ * 12               NO
+ * 12121992         YES
+ * ...              ...
+ *
+*/
+
+// Link https://courses.finki.ukim.mk/mod/quiz/attempt.php?attempt=464394&cmid=138228&page=4
+
 #include <iostream>
 using namespace std;
 
