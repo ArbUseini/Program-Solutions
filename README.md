@@ -4,6 +4,7 @@ Special Thanks to the contributors:
 - [Omer](https://github.com/omertairi04)
 - [Zaid](https://github.com/Zaid995)
 - [Faik](https://github.com/afgith)
+- [Dardan](https://github.com/DardanMehmedi)
 
 <hr>
 
