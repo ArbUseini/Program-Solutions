@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/* Marta and three friends go tl the movies 1 card is 200 , they pay for the genre , drinks , and if its a wednesday and they are paying with card the get 50% off on only the tickets*/
+/* Marta and four friends go to the movies 1 card is 200 , they pay for the genre , drinks , and if its a wednesday and they are paying with card the get 50% off on only the tickets*/
 int main() {
     int price_for_drinks, price_for_tickets = 800 , total_price = 0,popcorn_price ; // trackers 
     string genre , day , drink , popcorn_size; // variables
