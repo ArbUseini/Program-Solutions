@@ -1,3 +1,4 @@
+
 /*
  * Using the characters + and - form a square image with "width" n (n > 2) that represent square
  * of the chars -, enclosed by a square of chars + (view examples). For given n,
