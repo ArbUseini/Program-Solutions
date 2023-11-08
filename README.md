@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=O3vtpZgI0fQ
 (Linux):
 https://www.youtube.com/watch?v=bc3_FL9zWWs
 
-or paste these commands:
+or paste these commands(LINUX):
 ```
 sudo apt-update
 sudo apt install git
