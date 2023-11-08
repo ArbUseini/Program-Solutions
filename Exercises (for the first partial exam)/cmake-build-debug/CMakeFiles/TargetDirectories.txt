@@ -1,2 +1,0 @@
-C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Dell/OneDrive/Documents/GitHub/Program-Solutions/Exercises (for the first partial exam)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
