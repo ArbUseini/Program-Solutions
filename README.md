@@ -3,7 +3,6 @@ If there is a problem with the solutions or you have a more efficient method of 
 Special Thanks to the contributors:
 - [Omer](https://github.com/omertairi04)
 - [Zaid](https://github.com/Zaid995)
-- [Faik](https://github.com/afgith)
 - [Dardan](https://github.com/DardanMehmedi)
 
 <hr>
