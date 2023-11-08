@@ -11,7 +11,6 @@ Thanks Zaid ;)
 
 int main() {
     int red;
-    const int service = 5;
     const int first_break = 120;
     const int second_break = 210;
     const int end_of_day = 360;
