@@ -12,27 +12,27 @@
 
 using namespace std;
 
-int main() 
+int main()
 {
     char bruh;
     int num = 0, numalt = 0, sum = 0;
-    
+
     while(bruh != '!')
     {
         cin>> noskipws >>bruh;
 
-        if(bruh >= '0' && bruh <= '9') 
+        if(bruh >= '0' && bruh <= '9')
         {
 
             num = bruh - '0';
             if(numalt == 0) {
-                
+
                 numalt = num;
-                
+
             }
             else
             {
-                
+
                 num = (numalt*10) + num;
                 numalt = 0;
 
@@ -41,7 +41,7 @@ int main()
         }
         else
         {
-            
+
             numalt = 0;
             sum += num;
             num = 0;

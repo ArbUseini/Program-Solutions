@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.26)
 
-project(Exercises (for the first partial exam))
+project(EN_Exercises_First_Partial_Exam)
 
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(task1 1.cpp)
-# 2nd is in c
+add_executable(task2 2.c)
 add_executable(task3 3.cpp)
 add_executable(task4 4.cpp)
 add_executable(task5 5.cpp)
 add_executable(task6 6.cpp)
-# 7th is in c
+add_executable(task7 7.c)
 add_executable(task8 8.cpp)
 add_executable(task9 9.cpp)
 add_executable(task10 10.cpp)
