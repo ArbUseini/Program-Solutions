@@ -1,16 +1,18 @@
-/*
-*Write a program that will read two natural numbers. The program should check if the digits in the odd position of the first number are in the even position in the second number.
+/* *
 *
-*If this condition is met, the program prints DA, otherwise NE.
+* Write a program that will read two natural numbers. The program should check if the digits in the odd position of the first number are in the even position in the second number.
 *
-*The first digit is in the 0th position starting from the left.
+* If this condition is met, the program prints DA, otherwise NE.
 *
-*Input:  //  Output:
-*1234567 //  DA
-*654321  //
-*        //
-*13579   //  NE
-*97531   //
+* The first digit is in the 0th position starting from the left.
+*
+* Input:  //  Output:
+* 1234567 //  DA
+* 654321  //
+*         //
+* 13579   //  NE
+* 97531   //
+*
 * */
 
 #include <iostream>
