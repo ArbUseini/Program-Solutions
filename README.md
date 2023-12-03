@@ -3,7 +3,6 @@ If there is a problem with the solutions or you have a more efficient method of 
 Special Thanks to the contributors:
 - [Omer](https://github.com/omertairi04)
 - [Zaid](https://github.com/Zaid995)
-- [Faik](https://github.com/afgith)
 - [Dardan](https://github.com/DardanMehmedi)
 
 <hr>
@@ -23,7 +22,7 @@ https://www.youtube.com/watch?v=O3vtpZgI0fQ
 (Linux):
 https://www.youtube.com/watch?v=bc3_FL9zWWs
 
-or paste these commands:
+or paste these commands(LINUX):
 ```
 sudo apt-update
 sudo apt install git
