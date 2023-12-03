@@ -34,7 +34,7 @@ int main() {
   int n, m, count(0);
   cin >> n >> m;
   int arr[20][20];
-  int points[100][100];
+  int points[150][2];
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
       cin >> arr[i][j];
