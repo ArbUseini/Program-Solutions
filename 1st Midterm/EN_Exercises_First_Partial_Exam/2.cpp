@@ -13,34 +13,41 @@
 
 // Link: https://courses.finki.ukim.mk/mod/quiz/attempt.php?attempt=464394&cmid=138228&page=1
 
-// This is in C!
 
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 int main() { //smoking kills
     int a, b, count = 0;
-    scanf("%d %d", &a, &b);
+    cin >> a >> b;
+
     if (a < 100) {
         a = 100;
     }
+
     for (; a <= b; a++) {
         int sharpy = a % 10;
         int middle = 1;
         int p = a;
         p /= 10;
+
         while (!(p > 0 && p < 10)) {
             middle *= (p % 10);
             p /= 10;
         }
+
         if (middle == 0) {
             continue;
         }
+
         sharpy += (p * 10);
+
         if (middle % sharpy == 0) {
-            printf("%d -> (%d == %d * %d)\n", a, middle, sharpy, middle / sharpy);
+            cout << a << " -> (" << middle << " == " << sharpy << " * " << middle / sharpy << ")\n";
             count++;
         }
     }
-    printf("%d", count);
+
+    cout << count;
+
     return 0;
 }

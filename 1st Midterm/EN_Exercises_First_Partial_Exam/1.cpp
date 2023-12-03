@@ -12,8 +12,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){ //smoking kills
     char bruh;
     int num = 0, numalt = 0, sum = 0;
 
