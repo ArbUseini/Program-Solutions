@@ -1,5 +1,3 @@
-If you're looking for the <b>Задачи за вежбање за втор колоквиум / испит </b> solutions they will be out tomorrow or Friday at the latest! 
-
 Special Thanks to the contributors:
 - [Omer](https://github.com/omertairi04)
 - [Zaid](https://github.com/Zaid995)
