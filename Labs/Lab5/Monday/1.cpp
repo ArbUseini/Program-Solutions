@@ -15,7 +15,7 @@ int main(){
         b = tmp;
     }
 
-    cout<<"Largest Palindromic Number: "<<LargestPoli   (a, b);
+    cout<<"Largest Palindromic Number: "<<LargestPoli(a, b);
 
     return 0;
 }
