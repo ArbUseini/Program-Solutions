@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/* this is my intuitive approach and idk if it actually works I just thought of it on the spot*/
-/* pls factcheck me KN (use your discreate math to prove my intition)*/
-
 int gcd(int a, int b){
     return !b ?  a : gcd(b, a%b);
 }
