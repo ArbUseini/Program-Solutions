@@ -1,33 +1,34 @@
 #include <iostream>
-#include <string>
-#include <algorithm>
-
+#include <cstring>
+#include <cmath>
 using namespace std;
 
-int main() {
-    int N;
-    cin >> N;
-    cin.ignore(); // Ignore the newline after reading N
-
-    for (int i = 0; i < N; ++i) {
-        string str;
-        getline(cin, str);
-
-        int count = 0;
-        string lowerStr = str;
-        transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(), ::tolower); // Convert to lowercase
-
-        size_t pos = lowerStr.find("a1c");
-        while (pos != string::npos) {
-            count++;
-            pos = lowerStr.find("a1c", pos + 3); // Look for the next occurrence after 3 characters
+int main(){
+    int n;
+    cin >> n;
+    cin.get();
+    char f[100];
+    char target[100] = "a1c";
+    while (n--){
+        cin.getline(f, 100);
+        int is(0);
+        for (int i = 0; i < strlen(f); i++){
+            f[i] = tolower(f[i]);
+            if (f[i] == target[0]){    
+                int count(0);
+                for (int j = 0; j < strlen(target) && i + j < strlen(f); j++){
+                    if (tolower(f[i + j]) != target[j]){
+                        break;
+                    }
+                    count++;
+                }
+                if (count == strlen(target)){
+                    is++;
+                }
+            }
         }
-
-        if (count >= 2) {
-            transform(str.begin(), str.end(), str.begin(), ::tolower); // Convert original string to lowercase
-            cout << str << endl;
+        if (is >= 2){
+            cout << f << endl;
         }
     }
-
-    return 0;
 }

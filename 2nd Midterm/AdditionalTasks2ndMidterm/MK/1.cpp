@@ -1,50 +1,39 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 using namespace std;
 
-bool isPalindrome(string s) {
-    int i = 0, j = s.length() - 1;
-    while (i < j) {
-        if (s[i] != s[j])
-            return false;
-        i++;
-        j--;
-    }
-    return true;
-}
-
-bool containsSpecialChar(string s) {
-    for (char c : s) {
-        if (!isalnum(c) && c != '_')
-            return true;
-    }
-    return false;
-}
-
-int main() {
-    int N;
-    cin >> N;
-
-    string longestPalindrome = "";
-    bool found = false;
-
-    for (int i = 0; i < N; ++i) {
-        string str;
-        cin >> str;
-
-        if (isPalindrome(str) && containsSpecialChar(str)) {
-            if (str.length() > longestPalindrome.length()) {
-                longestPalindrome = str;
-                found = true;
+int main(){
+    char f[100];
+    char result[100];
+    int max(0);
+    int n;
+    cin >> n;
+    while (n--){
+        cin.getline(f, 100);
+        bool special(false);
+        bool stop(false);
+        for (int i = 0; i <= strlen(f) / 2; i++){
+            if (!isspace(f[i]) && !isalnum(f[i])){
+                special = true;
+            }
+            if (f[i] != f[strlen(f) - 1 - i]){
+                stop = true;
+                break;
+            }
+        }
+        if (stop){
+            continue;
+        }
+        if (special){
+            if (strlen(f) > max){
+                strcpy(result, f);
+                max = strlen(result);
             }
         }
     }
-
-    if (found) {
-        cout << longestPalindrome << endl;
-    } else {
-        cout << "Nema!" << endl;
+    if (max == 0){
+        cout << "Nema!";
+        return 0;
     }
-
-    return 0;
+    cout << result;
 }
